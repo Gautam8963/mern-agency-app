@@ -12,6 +12,10 @@ const clientSchema = new mongoose.Schema({
     designation: {
         type: String,
     },
+    type: {
+        type: String,
+        default: 'Direct Client'
+    },
     imageUrl: {
         type: String,
     },

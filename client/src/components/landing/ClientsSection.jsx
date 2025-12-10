@@ -13,7 +13,7 @@ const DUMMY_CLIENTS = [
         designation: 'HR Tech',
         description:
             'Graduate hiring platform using intelligent matchmaking between students and employers.',
-        imageUrl: 'https://assets.flipr.ai/logos/nektr-ai.png',
+        imageUrl: 'https://ui-avatars.com/api/?name=Nektr&background=4f46e5&color=fff&size=200&bold=true',
     },
     {
         _id: '2',
@@ -22,7 +22,7 @@ const DUMMY_CLIENTS = [
         designation: 'Insurtech',
         description:
             'Digital-first insurance provider leveraging technology to simplify insurance products.',
-        imageUrl: 'https://flipr.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Facko.faa06e26.webp&w=640&q=75',
+        imageUrl: 'https://ui-avatars.com/api/?name=Acko&background=8b5cf6&color=fff&size=200&bold=true',
     },
     {
         _id: '3',
@@ -31,7 +31,7 @@ const DUMMY_CLIENTS = [
         designation: 'E-commerce',
         description:
             'E-commerce enablement platform helping small businesses sell online with ease.',
-        imageUrl: 'https://assets.flipr.ai/logos/bikayi.png',
+        imageUrl: 'https://ui-avatars.com/api/?name=Bikayi&background=10b981&color=fff&size=200&bold=true',
     },
     {
         _id: '4',
@@ -40,7 +40,25 @@ const DUMMY_CLIENTS = [
         designation: 'Fintech',
         description:
             'Fintech company focused on payment and credit products for young professionals.',
-        imageUrl: 'https://assets.flipr.ai/logos/slice.png',
+        imageUrl: 'https://ui-avatars.com/api/?name=Slice&background=f59e0b&color=fff&size=200&bold=true',
+    },
+    {
+        _id: '5',
+        name: 'Unacademy',
+        type: 'Hiring Partner',
+        designation: 'EdTech',
+        description:
+            'India\'s largest learning platform that helps students prepare for competitive exams.',
+        imageUrl: 'https://ui-avatars.com/api/?name=Unacademy&background=3b82f6&color=fff&size=200&bold=true',
+    },
+    {
+        _id: '6',
+        name: 'PhonePe',
+        type: 'Direct Client',
+        designation: 'Fintech',
+        description:
+            'Digital payments and financial services platform making payments accessible to all.',
+        imageUrl: 'https://ui-avatars.com/api/?name=PhonePe&background=6366f1&color=fff&size=200&bold=true',
     },
 ];
 

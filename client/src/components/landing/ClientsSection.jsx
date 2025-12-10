@@ -10,33 +10,37 @@ const DUMMY_CLIENTS = [
         _id: '1',
         name: 'Nektr.ai',
         type: 'Direct Client',
+        designation: 'HR Tech',
         description:
             'Graduate hiring platform using intelligent matchmaking between students and employers.',
-        logoUrl: 'https://assets.flipr.ai/logos/nektr-ai.png',
+        imageUrl: 'https://assets.flipr.ai/logos/nektr-ai.png',
     },
     {
         _id: '2',
         name: 'Acko',
         type: 'Hiring Partner',
+        designation: 'Insurtech',
         description:
             'Digital-first insurance provider leveraging technology to simplify insurance products.',
-        logoUrl: 'https://assets.flipr.ai/logos/acko.png',
+        imageUrl: 'https://flipr.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Facko.faa06e26.webp&w=640&q=75',
     },
     {
         _id: '3',
         name: 'Bikayi',
         type: 'Hiring Partner',
+        designation: 'E-commerce',
         description:
             'E-commerce enablement platform helping small businesses sell online with ease.',
-        logoUrl: 'https://assets.flipr.ai/logos/bikayi.png',
+        imageUrl: 'https://assets.flipr.ai/logos/bikayi.png',
     },
     {
         _id: '4',
         name: 'Slice',
         type: 'Direct Client',
+        designation: 'Fintech',
         description:
             'Fintech company focused on payment and credit products for young professionals.',
-        logoUrl: 'https://assets.flipr.ai/logos/slice.png',
+        imageUrl: 'https://assets.flipr.ai/logos/slice.png',
     },
 ];
 

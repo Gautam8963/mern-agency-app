@@ -53,10 +53,17 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-                    <p>&copy; {new Date().getFullYear()} AgencyApp. All rights reserved.</p>
-                    <div className="flex space-x-6 mt-4 md:mt-0">
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+                    <p>&copy; {new Date().getFullYear()} AgencyApp. Developed by <span className="text-brand-500 font-bold">Gautam Dhodi</span>.</p>
+                    <div className="flex space-x-6 mt-4 md:mt-0 items-center">
+                        <a href="https://www.linkedin.com/in/gautam-dhodi-848567237" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2">
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/Gautam8963/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                            GitHub
+                        </a>
+                        <a href="https://github.com/Gautam8963/mern-agency-app" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors border border-slate-700 px-3 py-1 rounded-full hover:bg-slate-800 hover:border-slate-600">
+                            Source Code
+                        </a>
                     </div>
                 </div>
             </div>

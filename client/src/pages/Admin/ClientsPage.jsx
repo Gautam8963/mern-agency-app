@@ -91,8 +91,8 @@ const ClientsPage = () => {
                 />
             ) : (
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-                    {clients.map((client, index) => (
-                        <div key={client._id || index} className="group bg-white rounded-2xl shadow-soft border border-slate-100 overflow-hidden flex flex-col h-full hover:shadow-2xl hover:shadow-brand-500/10 transition-all duration-300 transform hover:-translate-y-1">
+                    {clients.map((client) => (
+                        <div key={client._id} className="group bg-white rounded-2xl shadow-soft border border-slate-100 overflow-hidden flex flex-col h-full hover:shadow-2xl hover:shadow-brand-500/10 transition-all duration-300 transform hover:-translate-y-1">
                             <div className="h-32 bg-slate-50 relative flex items-center justify-center border-b border-slate-50">
                                 {/* Decorative pattern */}
                                 <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#6366f1_1px,transparent_1px)] [background-size:16px_16px]"></div>
